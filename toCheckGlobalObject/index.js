@@ -1,0 +1,1 @@
+//shortest program in JS
