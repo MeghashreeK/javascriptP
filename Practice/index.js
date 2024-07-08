@@ -3,5 +3,14 @@
 
 //DAY-2
 // console.log(a);
-let a=10;
-let b=2;
+function x(){
+    var a=7;
+    function y(){
+        console.log(a);
+    }
+    return y;
+}
+var z=x();
+console.log(z);
+z();
+
