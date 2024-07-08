@@ -13,4 +13,4 @@ function x(){
 var z=x();
 console.log(z);
 z();
-
+//7 is printed
