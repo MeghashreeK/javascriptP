@@ -16,10 +16,10 @@
 // console.log(z);
 // z();
 //7 is printed
-function x(){
-    var a=7;
-    console.log(a);
-}
-var b=3;
-console.log(b);
-x();
+// function x(){
+//     var a=7;
+//     console.log(a);
+// }
+// var b=3;
+// console.log(b);
+// x();
