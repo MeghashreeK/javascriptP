@@ -22,13 +22,13 @@
 // x();
 //output: here it prints 1 to 5, after each seconds.
 
-function a(){
-    let x=2;
-    function b(){
-        console.log(x);
-    }
-    return b;
-}
-let x=6;
-let z=a();
-z();
+// function a(){
+//     let x=2;
+//     function b(){
+//         console.log(x);
+//     }
+//     return b;
+// }
+// let x=6;
+// let z=a();
+// z();
