@@ -6,8 +6,10 @@ const user=[
 
 ];
 
-const output=user.reduce((acc,curr){
-    if(acc[curr.age]<30){
+const output=user.reduce((acc,curr)=>{
+    if(Number(curr.age)<30){
         acc.push(curr.firstname);
     }
-},{})
+    return acc;
+},[])
+console.log(output);
